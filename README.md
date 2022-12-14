@@ -3,7 +3,7 @@ Latest gem is released at [RubyGems.org](https://rubygems.org/gems/redis_query_m
 
 Option 1: Add it to your `Gemfile` and run `bundle install`
 ```
-# Gemfile
+# Gemfile, preferably in your `test` group:
 
 gem "redis_query_matcher"
 

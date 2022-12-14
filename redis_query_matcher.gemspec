@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
   s.name        = "redis_query_matcher"
-  s.version     = "0.0.1"
+  s.version     = "0.0.2"
   s.summary     = "Redis Query Matcher"
   s.description = "This gem provides a RSpec matcher make_redis_queries."
   s.authors     = ["Ted Yang"]
   s.email       = "ted.yang@procore.com"
-  s.files       = ["lib/redis_query_matcher.rb"]
+  s.files       = ["lib/redis_query_matcher.rb", "lib/redis_commands_recorder.rb"]
   s.homepage    = "https://github.com/tedyangx/redis-query-matcher"
   s.license     = "MIT"
 
